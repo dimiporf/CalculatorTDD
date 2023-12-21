@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTDD", "Calculator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B09C2AA2-5AA8-410D-BBAF-17EF8685397D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{1BD42247-783D-45BD-9B1E-A4B527271F47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B09C2AA2-5AA8-410D-BBAF-17EF8685397D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B09C2AA2-5AA8-410D-BBAF-17EF8685397D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B09C2AA2-5AA8-410D-BBAF-17EF8685397D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD42247-783D-45BD-9B1E-A4B527271F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD42247-783D-45BD-9B1E-A4B527271F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD42247-783D-45BD-9B1E-A4B527271F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD42247-783D-45BD-9B1E-A4B527271F47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
