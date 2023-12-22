@@ -1,5 +1,7 @@
 
 using Domain;
+using FluentAssertions;
+using System.Reflection;
 
 namespace CalculatorTDD
 {
@@ -12,7 +14,7 @@ namespace CalculatorTDD
 
             var result = calculator.Sum(2, 2);
 
-            if (result != 4) throw new Exception();
+            result.Should().Be(4);
         }
 
      
